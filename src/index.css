@@ -111,7 +111,7 @@ section div.container ul li a{
 
 /* Footer Top */
 
-footer {
+.footer-top {
   background-image: url("/src/assets/img/footer-bg.jpg");
   background-size: cover;
   color: white;
@@ -120,7 +120,7 @@ footer {
   overflow: hidden;
 }
 
-footer .container {
+.footer-top .container {
   display: flex;
   justify-content: flex-start;
   position: relative;
@@ -137,7 +137,7 @@ footer .container {
   margin-right: 20px;
 }
 
-footer h3 {
+.footer-top h3 {
   color: white;
   font-size: 18px;
   margin-bottom: 16px;
@@ -145,7 +145,7 @@ footer h3 {
   font-weight: bold;
 }
 
-footer ul {
+.footer-top ul {
   list-style: none;
   padding: 0;
   display: flex;
@@ -153,17 +153,17 @@ footer ul {
   margin: 0;
 }
 
-footer ul li {
+.footer-top ul li {
   margin-bottom: 5px;
 }
 
-footer ul li a {
+.footer-top ul li a {
   color: #797979;
   font-size: 14px;
   text-decoration: none;
 }
 
-footer ul li a:hover {
+.footer-top ul li a:hover {
   color: white;
 }
 
@@ -171,7 +171,7 @@ footer ul li a:hover {
 .dc-bg-logo {
   position: absolute;
   top: 0;
-  right:25%;
+  right: 25%;
   width: 800px;
   height: 100%;
   background-image: url("/src/assets/img/dc-logo-bg.png");
@@ -179,12 +179,16 @@ footer ul li a:hover {
   background-position: right center;
   background-repeat: no-repeat;
   z-index: 0;
+  /* Limitare il logo solo al footer top */
+  bottom: 0;
 }
 
 /* Footer Bottom */
 .footer-bottom {
   background-color: #303030;
   padding: 30px 0;
+  position: relative; /* Aggiunto per garantire che il footer bottom abbia il proprio contesto di posizionamento */
+  z-index: 2; /* Valore più alto per assicurarsi che sia sopra il footer top */
 }
 
 .footer-bottom .container {
