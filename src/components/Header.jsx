@@ -1,6 +1,5 @@
 const Header = () => {
-  return <header>
-    <div className="container">
+  return <header className="container">
     <figure>
         <img src="/src/assets/img/dc-logo.png" alt="DC Comics Logo" />
     </figure>
@@ -18,7 +17,6 @@ const Header = () => {
                 <li><a href="#">SHOP</a></li>
             </ul>
         </nav>
-    </div>
   </header>
 }
 
