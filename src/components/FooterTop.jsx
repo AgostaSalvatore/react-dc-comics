@@ -25,7 +25,7 @@ const FooterTop = () => {
                 <h3>DC</h3>
                 <ul>
                     <li><a href="#">Terms Of Use</a></li>
-                    <li><a href="#">Privacy Policy (New)</a></li>
+                    <li><a href="#">Privacy policy (New)</a></li>
                     <li><a href="#">Ad Choices</a></li>
                     <li><a href="#">Advertising</a></li>
                     <li><a href="#">Jobs</a></li>
@@ -50,6 +50,7 @@ const FooterTop = () => {
             </div>
         </div>
     </div>
+    <div className="dc-bg-logo"></div>
   </footer>
 }
 
