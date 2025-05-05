@@ -58,7 +58,7 @@ ul li a:focus::after {
   content: '';
   display: block;
   position: absolute;
-  bottom: -15px;
+  bottom: -64px;
   left: 0;
   width: 100%;
   height: 3px;
