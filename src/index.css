@@ -1,5 +1,66 @@
+/* Stili globali */
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+
+img{
+  width: 100%;
+  height: auto;
+}
+
+.container{
+  max-width: 1600px;
+  margin: 0 auto;
+}
+
+/* HEADER */
+header .container{
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+a{
+  color: black;
+  text-decoration: none;
+}
+
+/* Stili per la lista non ordinata */
+ul{
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+li{
+  font-weight: bold;
+  font-size: 14px;
+}
+/* Stili per i link nella lista */
+/* Cambia il colore del testo in blu quando il mouse passa sopra un link nella lista */
+ul li a:hover{
+  color: #0282f9;
+}
+
+/* Stili applicati quando un link nella lista riceve il focus (viene cliccato) */
+ul li a:focus{
+  outline: none;
+  color: #0282f9;
+  position: relative;
+}
+
+/* Crea una linea sotto il link quando è in focus */
+ul li a:focus::after {
+  content: '';
+  display: block;
+  position: absolute;
+  bottom: -15px;
+  left: 0;
+  width: 100%;
+  height: 3px;
+  background-color: #0282f9;
 }
