@@ -29,7 +29,7 @@ a{
   text-decoration: none;
 }
 
-/* Stili per la lista non ordinata */
+
 ul{
   list-style: none;
   display: flex;
@@ -40,20 +40,19 @@ li{
   font-weight: bold;
   font-size: 14px;
 }
-/* Stili per i link nella lista */
-/* Cambia il colore del testo in blu quando il mouse passa sopra un link nella lista */
+
 header nav ul li a:hover{
   color: #0282f9;
 }
 
-/* Stili applicati quando un link nella lista riceve il focus (viene cliccato) */
+
 header nav ul li a:focus{
   outline: none;
   color: #0282f9;
   position: relative; 
 }
 
-/* Crea una linea sotto il link quando è in focus */
+
 header nav ul li a:focus::after {
   content: '';
   display: block;
@@ -180,4 +179,48 @@ footer ul li a:hover {
   background-position: right center;
   background-repeat: no-repeat;
   z-index: 0;
+}
+
+/* Footer Bottom */
+.footer-bottom {
+  background-color: #303030;
+  padding: 30px 0;
+}
+
+.footer-bottom .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.sign-up-btn {
+  background-color: transparent;
+  border: 2px solid #0282f9;
+  color: white;
+  padding: 10px 15px;
+  text-transform: uppercase;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.social {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.social span {
+  color: #0282f9;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.social-icons {
+  display: flex;
+  gap: 15px;
+}
+
+.social-icons img {
+  width: 30px;
+  height: 30px;
 }
