@@ -1,5 +1,5 @@
 const FooterTop = () => {
-  return <div className="footer-top">
+  return <footer className="footer-top">
     <div className="container">
         <div className="footer-cols">
             <div className="footer-col">
@@ -51,7 +51,7 @@ const FooterTop = () => {
         </div>
     </div>
     <div className="dc-bg-logo"></div>
-  </div>
+  </    footer>
 }
 
 export default FooterTop
