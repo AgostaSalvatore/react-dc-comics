@@ -1,6 +1,8 @@
 import Header from "./components/Header"
 import MainContent from "./components/MainContent"
 import MainLinks from "./components/MainLinks"
+import FooterTop from "./components/FooterTop"
+import FooterBottom from "./components/FooterBottom"
 
 function App() {
   return (
@@ -8,6 +10,8 @@ function App() {
     <Header/>
     <MainContent/>
     <MainLinks/>
+    <FooterTop/>
+    <FooterBottom/>
     </>
   )
 }
