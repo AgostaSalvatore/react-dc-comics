@@ -262,6 +262,11 @@ section.main-links div.container ul li a{
   cursor: pointer;
 }
 
+.sign-up-btn:hover{
+  background-color: #0282f9;
+  transition: 0.5s;
+}
+
 .social {
   display: flex;
   align-items: center;
