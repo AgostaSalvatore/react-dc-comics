@@ -157,7 +157,6 @@ const comics = [
 
 const ListComics = () => {
   return <section id="comics-list">
-    <h2>Current Series</h2>
     <ComicCard comic={comics[0]}/>
     <ComicCard comic={comics[1]}/>
     <ComicCard comic={comics[2]}/>
@@ -170,48 +169,6 @@ const ListComics = () => {
     <ComicCard comic={comics[9]}/>
     <ComicCard comic={comics[10]}/>
     <ComicCard comic={comics[11]}/>
-    {/* <div className="container card-container">
-      <div className="prod-card">
-        <img src={comics[0].thumb} alt={comics[0].title} />
-        <h3>{comics[0].title}</h3>
-      </div>
-    </div>
-    <div className="container card-container">
-      <div className="prod-card">
-        <img src={comics[0].thumb} alt={comics[0].title} />
-        <h3>{comics[0].title}</h3>
-      </div>
-    </div>
-    <div className="container card-container">
-      <div className="prod-card">
-        <img src={comics[0].thumb} alt={comics[0].title} />
-        <h3>{comics[0].title}</h3>
-      </div>
-    </div>
-    <div className="container card-container">
-      <div className="prod-card">
-        <img src={comics[0].thumb} alt={comics[0].title} />
-        <h3>{comics[0].title}</h3>
-      </div>
-    </div>
-    <div className="container card-container">
-      <div className="prod-card">
-        <img src={comics[0].thumb} alt={comics[0].title} />
-        <h3>{comics[0].title}</h3>
-      </div>
-    </div>
-    <div className="container card-container">
-      <div className="prod-card">
-        <img src={comics[0].thumb} alt={comics[0].title} />
-        <h3>{comics[0].title}</h3>
-      </div>
-    </div>
-    <div className="container card-container">
-      <div className="prod-card">
-        <img src={comics[0].thumb} alt={comics[0].title} />
-        <h3>{comics[0].title}</h3>
-      </div>
-    </div> */}
   </section>
 }
 

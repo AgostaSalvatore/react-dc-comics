@@ -3,7 +3,7 @@ import React from 'react'
 const ComicCard = ({ comic }) => {
   return (<div className="container card-container">
   <div className="prod-card">
-    <img src={comic.thumb} alt={comic.title} />
+    <a href="#"><img src={comic.thumb} alt={comic.title} /></a>
     <h3>{comic.title}</h3>
   </div>
 </div>);
