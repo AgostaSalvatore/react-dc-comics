@@ -169,6 +169,7 @@ const ListComics = () => {
     <ComicCard comic={comics[9]}/>
     <ComicCard comic={comics[10]}/>
     <ComicCard comic={comics[11]}/>
+    <button id="load-more">Load More</button>
   </section>
 }
 
