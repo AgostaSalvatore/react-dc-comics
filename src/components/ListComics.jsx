@@ -159,7 +159,17 @@ const ListComics = () => {
   return <section id="comics-list">
     <h2>Current Series</h2>
     <ComicCard comic={comics[0]}/>
-   
+    <ComicCard comic={comics[1]}/>
+    <ComicCard comic={comics[2]}/>
+    <ComicCard comic={comics[3]}/>
+    <ComicCard comic={comics[4]}/>
+    <ComicCard comic={comics[5]}/>
+    <ComicCard comic={comics[6]}/>
+    <ComicCard comic={comics[7]}/>
+    <ComicCard comic={comics[8]}/>
+    <ComicCard comic={comics[9]}/>
+    <ComicCard comic={comics[10]}/>
+    <ComicCard comic={comics[11]}/>
     {/* <div className="container card-container">
       <div className="prod-card">
         <img src={comics[0].thumb} alt={comics[0].title} />
