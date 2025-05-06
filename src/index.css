@@ -179,7 +179,6 @@ section div.container ul li a{
   background-position: right center;
   background-repeat: no-repeat;
   z-index: 0;
-  /* Limitare il logo solo al footer top */
   bottom: 0;
 }
 
