@@ -1,5 +1,5 @@
 const MainLinks = () => {
-  return <section>
+  return <section className="main-links">
     <div className="container">
     <ul>
         <li>

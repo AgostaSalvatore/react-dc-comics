@@ -75,16 +75,16 @@ main div.container{
 
 /* Main Links */
 
-section{
+section.main-links{
   background-color: #0282f9;
   padding: 50px;
 }
 
-section div.container{
+section.main-links div.container{
   display: flex;
 }
 
-section div.container ul{
+section.main-links div.container ul{
   padding: 20px;
   display: flex;
   justify-content: space-between;
@@ -92,14 +92,14 @@ section div.container ul{
   align-items: center;
 }
 
-section div.container ul li{
+section.main-links div.container ul li{
   display: flex;
   align-items: center;
   gap: 10px;
   color: white;
 }
 
-section div.container ul li a{
+section.main-links div.container ul li a{
   color: white;
 }
 
@@ -107,6 +107,27 @@ section div.container ul li a{
   width: 70px;
   height: 70px;
   object-fit: contain;
+}
+
+/* Comics Section */
+
+.card-container{
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 2rem;
+}
+
+.prod-card{
+  width: calc(100% / 6);
+}
+
+.prod-card img{
+  display: block;
+}
+
+.prod-card h3{
+  margin-top: 2rem;
+  text-align: left;
 }
 
 /* Footer Top */
