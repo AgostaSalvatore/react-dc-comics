@@ -187,8 +187,8 @@ section div.container ul li a{
 .footer-bottom {
   background-color: #303030;
   padding: 30px 0;
-  position: relative; /* Aggiunto per garantire che il footer bottom abbia il proprio contesto di posizionamento */
-  z-index: 2; /* Valore più alto per assicurarsi che sia sopra il footer top */
+  position: relative;
+  z-index: 2;
 }
 
 .footer-bottom .container {
