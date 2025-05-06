@@ -129,11 +129,17 @@ section.main-links div.container ul li a{
 
 .prod-card img{
   display: block;
+  height: 200px;
 }
+
+
 
 .prod-card h3{
   margin-top: 2rem;
   text-align: left;
+  overflow: hidden;
+  height: 60px;
+  font-size: 15px;
 }
 
 /* Footer Top */

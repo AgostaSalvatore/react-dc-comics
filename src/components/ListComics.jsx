@@ -1,3 +1,5 @@
+import ComicCard from "./ComicCard";
+
 const comics = [
     {
       id: 1,
@@ -156,7 +158,9 @@ const comics = [
 const ListComics = () => {
   return <section id="comics-list">
     <h2>Current Series</h2>
-    <div className="container card-container">
+    <ComicCard comic={comics[0]}/>
+   
+    {/* <div className="container card-container">
       <div className="prod-card">
         <img src={comics[0].thumb} alt={comics[0].title} />
         <h3>{comics[0].title}</h3>
@@ -197,7 +201,7 @@ const ListComics = () => {
         <img src={comics[0].thumb} alt={comics[0].title} />
         <h3>{comics[0].title}</h3>
       </div>
-    </div>
+    </div> */}
   </section>
 }
 
