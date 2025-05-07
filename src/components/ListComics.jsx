@@ -157,7 +157,7 @@ const comics = [
 
 const ListComics = () => {
   return <section id="comics-list">
-    <ComicCard comic={comics[0]}/>
+    {/* <ComicCard comic={comics[0]}/>
     <ComicCard comic={comics[1]}/>
     <ComicCard comic={comics[2]}/>
     <ComicCard comic={comics[3]}/>
@@ -168,7 +168,7 @@ const ListComics = () => {
     <ComicCard comic={comics[8]}/>
     <ComicCard comic={comics[9]}/>
     <ComicCard comic={comics[10]}/>
-    <ComicCard comic={comics[11]}/>
+    <ComicCard comic={comics[11]}/> */}
     <button id="load-more">Load More</button>
   </section>
 }

@@ -106,7 +106,6 @@ main div.container h1{
 .card-container{
   float: left;
   width: calc(100% / 6);
-  padding: 0px;
 }
 
 .prod-card{
