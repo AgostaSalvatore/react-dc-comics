@@ -157,6 +157,9 @@ const comics = [
 
 const ListComics = () => {
   return <section id="comics-list">
+    {comics.map((comic) => (
+      <ComicCard comic={comic}/>
+    ))}
     {/* <ComicCard comic={comics[0]}/>
     <ComicCard comic={comics[1]}/>
     <ComicCard comic={comics[2]}/>
