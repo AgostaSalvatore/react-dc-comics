@@ -158,7 +158,7 @@ const comics = [
 const ListComics = () => {
   return <section id="comics-list">
     {comics.map((comic) => (
-      <ComicCard comic={comic}/>
+      <ComicCard key={comic.id} comic={comic}/>
     ))}
     <button id="load-more">Load More</button>
   </section>
