@@ -1,5 +1,3 @@
-import React from 'react'
-
 const ComicCard = ({ comic }) => {
   return (<div className="container card-container">
   <div className="prod-card">

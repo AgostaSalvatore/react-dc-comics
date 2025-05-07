@@ -6,6 +6,7 @@ const MainContent = () => {
             <h1>Current Series</h1>
             <ListComics/>
         </div>
+        
     </main>
 }
 
